@@ -26,3 +26,7 @@ vergil.registrar.columbia.edu###cu-privacy-notice
 
 ! 20/07/2018, 7:44:35 AM http://sfs.columbia.edu/ways-to-pay
 sfs.columbia.edu###cu-privacy-notice
+
+! WHITELIST SITES BELOW:
+
+@@ ||singaporeair.com
