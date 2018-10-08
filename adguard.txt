@@ -12,7 +12,7 @@ sfs.columbia.edu###cu-privacy-notice
 
 ! WHITELIST SITES BELOW:
 
-@@ ||singaporeair.com
-@@ ||hsbc.com.sg
-@@ ||ica.gov.sg
-@@ ||singpass.gov.sg
+@@ ||singaporeair.com^
+@@ ||hsbc.com.sg^
+@@ ||ica.gov.sg^
+@@ ||singpass.gov.sg^
