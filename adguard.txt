@@ -11,8 +11,13 @@ vergil.registrar.columbia.edu###cu-privacy-notice
 sfs.columbia.edu###cu-privacy-notice
 
 ! WHITELIST SITES BELOW:
+! PREFIX: @@|| SUFFIX: $document
 
-@@ ||singaporeair.com^
-@@ ||hsbc.com.sg^
-@@ ||ica.gov.sg^
-@@ ||singpass.gov.sg^
+@@||singaporeair.com$document
+@@||hsbc.com.sg$document
+@@||ica.gov.sg$document
+@@||singpass.gov.sg$document
+@@||www.enets.sg$document
+@@||citibank.com.sg$document
+@@||dbs.com.sg$document
+@@||posb.com.sg$document
