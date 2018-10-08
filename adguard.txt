@@ -1,32 +1,18 @@
 medium.com###container > DIV.butterBar.is-active.butterBar--privacy:first-child > DIV.butterBar-message
 cas.columbia.edu###cu-privacy-notice
-! 04/06/2018, 10:07:48 PM https://isso.columbia.edu/
 isso.columbia.edu###cu-privacy-notice
-
-! 09/06/2018, 10:00:40 AM https://cas.columbia.edu/cas/login?service=https%3A%2F%2Fwww.cc-seas.columbia.edu%2Fcountdown%2Fuser
 cas.columbia.edu###cu-privacy-notice
-
-! 10/06/2018, 1:33:39 PM https://www.columbia.edu/
 www.columbia.edu###cu-privacy-notice
-
-! 10/06/2018, 1:34:02 PM http://www.college.columbia.edu/
 www.college.columbia.edu###sliding-popup
-
-! 22/06/2018, 8:14:29 PM https://universitylife.columbia.edu/welcome-columbia-pre-orientation-tutorials
 universitylife.columbia.edu###cu-privacy-notice
-
-! 01/07/2018, 11:34:24 AM http://housing.columbia.edu/incoming-students/first-year-students
 housing.columbia.edu###cu-privacy-notice
-
-! 01/07/2018, 7:54:01 PM https://askus.columbia.edu/app/answers/detail/a_id/27/kw/Authorized%20Payer
 askus.columbia.edu###cu-privacy-notice
-
-! 12/07/2018, 10:00:40 PM https://vergil.registrar.columbia.edu/
 vergil.registrar.columbia.edu###cu-privacy-notice
-
-! 20/07/2018, 7:44:35 AM http://sfs.columbia.edu/ways-to-pay
 sfs.columbia.edu###cu-privacy-notice
 
 ! WHITELIST SITES BELOW:
 
 @@ ||singaporeair.com
+@@ ||hsbc.com.sg
+@@ ||ica.gov.sg
+@@ ||singpass.gov.sg
