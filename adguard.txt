@@ -22,3 +22,4 @@ sfs.columbia.edu###cu-privacy-notice
 @@||dbs.com.sg$document
 @@||posb.com.sg$document
 @@||poems.com.sg$document
+@@||iocbc.com$document
