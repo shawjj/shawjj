@@ -9,6 +9,61 @@ housing.columbia.edu###cu-privacy-notice
 askus.columbia.edu###cu-privacy-notice
 vergil.registrar.columbia.edu###cu-privacy-notice
 sfs.columbia.edu###cu-privacy-notice
+edblogs.columbia.edu###admin-message-1
+blog.shawjj.com###container > DIV.butterBar.is-active.butterBar--privacy:first-child > DIV.butterBar-message
+singaporeair.com###container > ASIDE.popup-1.popup--cookie.cookie-close.popup--cookie-continue:last-child
+newyorker.com###app-root > DIV > DIV > MAIN.PageContainer__main___w2VEm:first-child > SECTION.PageContainer__pageContent___1xERg.PageContainer__article___136yK:nth-child(2) > DIV.Ad__header___1jsfu:first-child > IFRAME.Failsafe__header___2H391
+dnt.abine.com###rate-us-notification
+artsinitiative.columbia.edu###cu-privacy-notice
+columbia.edu###cu-privacy-notice
+summer.sps.columbia.edu###sliding-popup > DIV.eu-cookie-compliance-banner.eu-cookie-compliance-banner-info > DIV.popup-content.info.eu-cookie-compliance-content
+###js-repo-pjax-container > DIV.container.new-discussion-timeline.experiment-repo-nav:last-child > DIV.repository-content:first-child > DIV.signup-prompt-bg.rounded-1:first-child > DIV.signup-prompt.p-4.text-center.mb-4.rounded-1
+github.com###js-repo-pjax-container > DIV.container.new-discussion-timeline.experiment-repo-nav:last-child > DIV.repository-content:first-child > DIV.issues-listing > DIV.signup-prompt-bg.rounded-1:first-child > DIV.signup-prompt.p-4.text-center.mb-4.rounded-1
+vergil.registrar.columbia.edu###site-container > FOOTER.navbar.navbar-fixed-bottom:last-child
+cc-seas.columbia.edu###sliding-popup
+shmoop.com###top
+shmoop.com###takeover-wallpaper > A.visible-lg.wallpaper-lg.wallpaper-element.wallpaper-top:nth-child(2)
+sparknotes.com###blog-slider
+sparknotes.com##DIV.content:nth-child(8) > DIV.ad-container:last-child > DIV.homepage-slider--side.homepage-slider:nth-child(5)
+sparknotes.com##.homepage-slider--side,.homepage-slider
+darksky.net##NAV:first-child
+darksky.net###timeMachine
+darksky.net###header
+wallstreetoasis.com###comments > DIV.comment-overall-layer:nth-child(3) > DIV.comment.comment-container.ads:last-child
+wallstreetoasis.com###block-system-main > DIV.content > DIV.well.well-no-border.text-center:nth-child(2)
+nypost.com###offer-0-QgzYa
+nypost.com###offer-^
+study.com###mainContainer > INSTANT-ANSWERS-POP-UP.ng-isolate-scope:nth-child(4) > DIV.instantAnswerPopUp.hidden-xs.open
+@@||files.mycloud.com$document
+litcharts.com###sticky-sidebar > DIV.inner-wrapper-sticky > DIV.right-sidebar.sidebar__inner:first-child
+@@||blog.shawjj.com^$important,document,~extension
+@@||campus.datacamp.com^$important,document,~extension
+@@||angel.co^$important,document,~extension
+@@||cams-columbia-insight.symplicity.com^$important,document,~extension
+@@||gumroad.com^$important,document,~extension
+mergersandinquisitions.com##.c-sPopUpHead
+mergersandinquisitions.com##div.c-sPopUp.js-sPopUp.h-mobile.is-active:nth-child(4) > div.c-sPopUpBody:last-child
+mergersandinquisitions.com##div.c-sPopUp.js-sPopUp.h-mobile.is-active:nth-child(4) > span.c-sPopUpClose.js-sPopUpClose:first-child > svg
+@@||insomniacookies.com^$important,document,~extension
+@@||joinus.barclays^$important,document,~extension
+mint.intuit.com###moduleAccounts-credit > a.accounts-adv:nth-child(2)
+mint.intuit.com###moduleAccounts-bank > a.accounts-adv:nth-child(2)
+courseworks2.columbia.edu###ek-overlay
+courseworks2.columbia.edu###ek-modal > div.ek-modal-content
+coursehero.com###ch_askQuestionTray_wrapper > div.ch-aaq-widget-tab:first-child
+@@||tickets.oculusvr.com^$important,document,~extension
+courseworks2.columbia.edu###application > div:nth-child(5) > iframe
+tdameritrade.com.sg##span:nth-child(23) > tdaa.ng-scope:nth-child(2) > div.body-wrapper.header-wrapper.ng-scope.page-banner-display > span.ng-scope > header.main-header.ng-scope:last-child > div.bannerLinksWrapper.ng-scope:last-child > article.topBannerInclude > section.page-banner.ng-scope
+@@||jpmchase.taleo.net^$important,document,~extension
+investopedia.com###dotdash-family-nav_1-0
+investopedia.com###partnerlinks__heading_1-0
+@@||tal.net^$important,document,~extension
+@@||avature.net^$important,document,~extension
+stocktwits.com###app > div.lightMode > div.st_1V-YOhj.st_1SZeGna > div.st_1ccHZxv.st_jGV698i.st_cUBEAH8.st_3QTv-Ni:nth-child(2) > div.st_3rHBbGs.st_3QTv-Ni:last-child > div.st_Lzw8Bqp.st_jGV698i:last-child > div.st_2sJjmqi:last-child
+medium.com###credential_picker_container > iframe
+@@||eregister.mfa.gov.sg^$important,document,~extension
+gov.sg##div.chat_box.no-print.ui-draggable:nth-child(5)
+
 
 ! WHITELIST SITES BELOW:
 ! PREFIX: @@|| SUFFIX: $document
