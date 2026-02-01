@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f0eb;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 520px;
+    width: 100%;
+    padding: 3rem 2.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+}
+
+.headshot {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 3px solid #f5f0eb;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.35rem;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-bottom: 1.5rem;
+}
+
+.bio {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 1.75rem;
+}
+
+.linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.linkedin:hover {
+    background-color: #f5f0eb;
+    border-color: #bbb;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    .card {
+        padding: 2rem 1.5rem;
+    }
+
+    .headshot {
+        width: 110px;
+        height: 110px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+}
