@@ -30,6 +30,7 @@ document.querySelectorAll("[data-draggable]").forEach((sticker) => {
     };
 
     sticker.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
         state.activePointer = event.pointerId;
         state.startX = event.clientX - state.x;
         state.startY = event.clientY - state.y;
@@ -62,7 +63,35 @@ document.querySelectorAll("[data-draggable]").forEach((sticker) => {
 
     sticker.addEventListener("pointerup", endDrag);
     sticker.addEventListener("pointercancel", endDrag);
+    sticker.addEventListener("dragstart", (event) => event.preventDefault());
     window.addEventListener("resize", clampPosition);
 
     setPosition();
 });
+
+const aboutToggle = document.querySelector(".about-toggle");
+const aboutPanel = document.querySelector("#about-panel");
+const aboutBackdrop = document.querySelector(".about-backdrop");
+const desk = document.querySelector(".desk");
+
+if (aboutToggle && aboutPanel && aboutBackdrop && desk) {
+    const setAboutOpen = (isOpen) => {
+        aboutToggle.setAttribute("aria-expanded", String(isOpen));
+        aboutPanel.hidden = !isOpen;
+        aboutBackdrop.hidden = !isOpen;
+        desk.classList.toggle("about-open", isOpen);
+    };
+
+    aboutToggle.addEventListener("click", () => {
+        const isExpanded = aboutToggle.getAttribute("aria-expanded") === "true";
+        setAboutOpen(!isExpanded);
+    });
+
+    aboutBackdrop.addEventListener("click", () => setAboutOpen(false));
+
+    window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            setAboutOpen(false);
+        }
+    });
+}

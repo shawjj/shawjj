@@ -14,12 +14,21 @@
     <main class="desk" aria-label="JJ Shaw tabletop desk">
         <section class="intro-note" aria-label="Site note">
             <p class="scribble">JJ Shaw</p>
-            <a href="mailto:hello@shawjj.com">hello@shawjj.com</a>
+            <div class="intro-actions">
+                <a href="mailto:hello@shawjj.com">hello@shawjj.com</a>
+                <button class="about-toggle" type="button" aria-expanded="false" aria-controls="about-panel">About Me</button>
+            </div>
+        </section>
+
+        <div class="about-backdrop" hidden></div>
+        <section class="about-panel" id="about-panel" aria-label="About JJ Shaw" hidden>
+            <p>
+                Investment Banking Associate at Deutsche Bank, advising consumer and technology companies on strategic financing solutions. IG debt offerings / capital structure advisory. Columbia University, Class of 2022.
+            </p>
         </section>
 
         <div class="desk-sticker sticker-dot dot-cobalt" aria-hidden="true"></div>
         <div class="desk-sticker sticker-dot dot-cream" aria-hidden="true"></div>
-        <div class="desk-sticker sticker-tab" aria-hidden="true">debt capital markets</div>
         <div class="desk-sticker sticker-star" aria-hidden="true"></div>
 
         <article class="image-sticker business-card-sticker draggable" aria-label="Draggable business card sticker" data-draggable data-rotation="-5" data-drag-rotation="-2">
