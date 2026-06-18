@@ -284,11 +284,15 @@ a {
 .pennant-sticker,
 .pennant-sticker:focus,
 .pennant-sticker:active,
+.pennant-sticker.is-dragging,
 .pennant-sticker img,
 .pennant-sticker img:focus,
-.pennant-sticker img:active {
+.pennant-sticker img:active,
+.pennant-sticker.is-dragging img {
+    background: transparent;
     outline: none;
     box-shadow: none;
+    filter: none;
 }
 
 .drag-cue {
