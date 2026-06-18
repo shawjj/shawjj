@@ -177,6 +177,7 @@ a {
     user-select: none;
     will-change: transform;
     outline: none;
+    -webkit-touch-callout: none;
     -webkit-user-drag: none;
 }
 
@@ -259,6 +260,14 @@ a {
     filter: saturate(1.02) contrast(1.03);
 }
 
+.coffee-sticker {
+    right: clamp(3rem, 15vw, 9rem);
+    top: clamp(8rem, 19vh, 13rem);
+    width: clamp(4.8rem, 9vw, 7.5rem);
+    transform: translate3d(0, 0, 0) rotate(9deg);
+    background: transparent;
+}
+
 .pennant-sticker {
     right: clamp(1rem, 7vw, 6rem);
     top: clamp(6rem, 16vh, 10rem);
@@ -267,10 +276,12 @@ a {
     background: transparent;
 }
 
+.transparent-sticker::before,
 .pennant-sticker::before {
     display: none;
 }
 
+.transparent-sticker img,
 .pennant-sticker img {
     position: relative;
     border: 0;
@@ -281,6 +292,14 @@ a {
     -webkit-user-drag: none;
 }
 
+.transparent-sticker,
+.transparent-sticker:focus,
+.transparent-sticker:active,
+.transparent-sticker.is-dragging,
+.transparent-sticker img,
+.transparent-sticker img:focus,
+.transparent-sticker img:active,
+.transparent-sticker.is-dragging img,
 .pennant-sticker,
 .pennant-sticker:focus,
 .pennant-sticker:active,
@@ -344,6 +363,7 @@ a {
 .sticker-star {
     left: 58%;
     top: 11%;
+    z-index: 4;
     width: clamp(3.5rem, 7vw, 5.5rem);
     aspect-ratio: 1;
     background: #f0c15f;
@@ -389,22 +409,29 @@ a {
 
     .business-card-sticker {
         left: 2rem;
-        top: 14.8rem;
+        top: 14.6rem;
         width: min(49vw, 13.4rem);
     }
 
     .keyboard-sticker {
         left: 1.25rem;
-        bottom: 2.8rem;
+        bottom: 4.4rem;
         width: min(78vw, 22.5rem);
         transform: translate3d(0, 0, 0) rotate(4deg);
     }
 
     .pennant-sticker {
-        right: 5.2rem;
-        top: 23.8rem;
+        right: 4.8rem;
+        top: 24.4rem;
         width: min(50vw, 14.2rem);
         transform: translate3d(0, 0, 0) rotate(-8deg);
+    }
+
+    .coffee-sticker {
+        right: 9.2rem;
+        top: 12.35rem;
+        width: 4.9rem;
+        transform: translate3d(0, 0, 0) rotate(9deg);
     }
 
     .drag-cue {
@@ -415,8 +442,8 @@ a {
 
     .sticker-star {
         left: auto;
-        right: 2rem;
-        top: 13.1rem;
+        right: 7rem;
+        top: 16.25rem;
         width: 4.6rem;
     }
 
