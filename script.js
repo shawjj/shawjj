@@ -17,12 +17,13 @@ document.querySelectorAll("[data-draggable]").forEach((sticker) => {
     };
 
     const clampPosition = () => {
+        setPosition();
         const rect = sticker.getBoundingClientRect();
-        const margin = Math.min(window.innerWidth * 0.28, 150);
-        const minX = -rect.left - rect.width + margin;
-        const maxX = window.innerWidth - rect.left - margin;
-        const minY = -rect.top - rect.height + margin;
-        const maxY = window.innerHeight - rect.top - margin;
+        const edgeReveal = clamp(Math.min(rect.width, rect.height) * 0.35, 24, 72);
+        const minX = state.x + edgeReveal - rect.right;
+        const maxX = state.x + window.innerWidth - edgeReveal - rect.left;
+        const minY = state.y + edgeReveal - rect.bottom;
+        const maxY = state.y + window.innerHeight - edgeReveal - rect.top;
 
         state.x = clamp(state.x, minX, maxX);
         state.y = clamp(state.y, minY, maxY);
