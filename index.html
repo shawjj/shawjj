@@ -1,54 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
     <title>JJ Shaw</title>
-    <meta name="description" content="JJ Shaw's personal site." />
+    <meta
+        name="description"
+        content="JJ Shaw is an investment banking associate advising consumer and technology companies on debt financing and capital structure."
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <main class="desk" aria-label="JJ Shaw tabletop desk">
-        <section class="intro-note" aria-label="Site note">
-            <p class="scribble">JJ Shaw</p>
-            <div class="intro-actions">
-                <a href="mailto:hello@shawjj.com">hello@shawjj.com</a>
-                <button class="about-toggle" type="button" aria-expanded="false" aria-controls="about-panel">About Me</button>
-            </div>
-        </section>
+    <main class="site-shell">
+        <header class="site-header">
+            <a class="wordmark" href="#top" aria-label="JJ Shaw, home">JJ Shaw</a>
+            <nav aria-label="Contact links">
+                <a href="mailto:hello@shawjj.com">Email</a>
+                <a href="https://www.linkedin.com/in/shawjj" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </nav>
+        </header>
 
-        <div class="about-backdrop" hidden></div>
-        <section class="about-panel" id="about-panel" aria-label="About JJ Shaw" hidden>
+        <section class="introduction" id="top" aria-labelledby="introduction-heading">
+            <h1 class="visually-hidden" id="introduction-heading">About JJ Shaw</h1>
             <p>
-                Investment Banking Associate at Deutsche Bank, advising consumer and technology companies on strategic financing solutions. IG debt offerings / capital structure advisory. Columbia University, Class of 2022.
+                I work in investment banking at Deutsche Bank, advising consumer and technology companies on debt financing and capital structure. I studied Financial Economics at Columbia and previously worked in private equity and venture capital.
             </p>
         </section>
 
-        <div class="desk-sticker sticker-dot dot-cobalt" aria-hidden="true"></div>
-        <div class="desk-sticker sticker-dot dot-cream" aria-hidden="true"></div>
-        <div class="desk-sticker sticker-star" aria-hidden="true"></div>
+        <section class="experience" aria-labelledby="experience-heading">
+            <div class="section-heading">
+                <span aria-hidden="true"></span>
+                <h2 id="experience-heading">Experience</h2>
+            </div>
 
-        <article class="image-sticker coffee-sticker transparent-sticker draggable" aria-label="Draggable coffee cup sticker" data-draggable data-rotation="9" data-drag-rotation="4">
-            <img src="images/coffee-cup.png" alt="Coffee cup" draggable="false" />
-        </article>
+            <ol class="experience-list">
+                <li class="experience-row">
+                    <div>
+                        <h3>Deutsche Bank</h3>
+                        <p>Investment Banking Associate</p>
+                    </div>
+                    <p class="experience-meta">
+                        <span>New York, NY</span>
+                        <time datetime="2022-07">2022—Present</time>
+                    </p>
+                </li>
+                <li class="experience-row">
+                    <div>
+                        <h3>Activus Capital Partners</h3>
+                        <p>Private Equity Intern</p>
+                    </div>
+                    <p class="experience-meta">
+                        <span>Austin, TX</span>
+                        <time datetime="2020">2020</time>
+                    </p>
+                </li>
+                <li class="experience-row">
+                    <div>
+                        <h3>Future Perfect Ventures</h3>
+                        <p>Venture Capital Intern</p>
+                    </div>
+                    <p class="experience-meta">
+                        <span>New York, NY</span>
+                        <time datetime="2019">2019—2020</time>
+                    </p>
+                </li>
+                <li class="experience-row">
+                    <div>
+                        <h3>Singapore Armed Forces</h3>
+                        <p>Editor in Chief, Topguns</p>
+                    </div>
+                    <p class="experience-meta">
+                        <span>Singapore, SG</span>
+                        <time datetime="2016-07">2016—2018</time>
+                    </p>
+                </li>
+            </ol>
+        </section>
 
-        <article class="image-sticker business-card-sticker draggable" aria-label="Draggable business card sticker" data-draggable data-rotation="-5" data-drag-rotation="-2">
-            <img src="images/business-card.jpeg" alt="JJ Shaw business card" draggable="false" />
-            <span class="drag-cue">drag me</span>
-        </article>
-
-        <article class="image-sticker keyboard-sticker draggable" aria-label="Draggable Bloomberg keyboard sticker" data-draggable data-rotation="4" data-drag-rotation="1">
-            <img src="images/bloomberg-keyboard.jpeg" alt="Old-school Bloomberg keyboard" draggable="false" />
-        </article>
-
-        <article class="image-sticker pennant-sticker draggable" aria-label="Draggable Columbia University pennant sticker" data-draggable data-rotation="-8" data-drag-rotation="-4">
-            <img src="images/columbia-pennant.png" alt="Columbia University pennant" draggable="false" />
-        </article>
+        <footer>
+            <a href="mailto:hello@shawjj.com">hello@shawjj.com</a>
+        </footer>
     </main>
-
-    <script src="script.js"></script>
 </body>
 </html>
