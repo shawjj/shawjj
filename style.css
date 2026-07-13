@@ -158,6 +158,10 @@ footer {
     font-size: 1rem;
 }
 
+.education {
+    margin-top: clamp(5rem, 12vw, 9rem);
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
