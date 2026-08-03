@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Creating useful gestures on macOS with BetterTouchTool — JJ Shaw</title>
+  <meta name="description" content="Supercharging your Mac with Better Touch Tool">
+  <link rel="canonical" href="https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Creating useful gestures on macOS with BetterTouchTool — JJ Shaw">
+  <meta property="og:description" content="Supercharging your Mac with Better Touch Tool">
+  <meta property="og:url" content="https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/atom+xml" title="JJ Shaw — Writing" href="https://shawjj.com/feed.xml">
+  <link rel="stylesheet" href="/writing.css">
+<meta property="article:published_time" content="2020-05-18T17:02:22.546Z">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Creating useful gestures on macOS with BetterTouchTool", "description": "Supercharging your Mac with Better Touch Tool", "datePublished": "2020-05-18T17:02:22.546Z", "dateModified": "2020-05-18T17:02:22.546Z", "author": {"@type": "Person", "name": "JJ Shaw", "url": "https://shawjj.com"}, "mainEntityOfPage": "https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/"}</script>
+</head>
+<body>
+  <header class="writing-header">
+    <a class="writing-wordmark" href="/">JJ Shaw</a>
+    <nav aria-label="Primary navigation">
+      <a href="/writing/">Writing</a>
+      <a href="mailto:hello@shawjj.com">Email</a>
+      <a href="https://www.linkedin.com/in/shawjj" rel="noopener noreferrer">LinkedIn</a>
+    </nav>
+  </header>
+  <main class="article-shell">
+    <article>
+      <header class="article-header">
+        <p class="eyebrow"><a href="/writing/">Writing</a></p>
+        <h1>Creating useful gestures on macOS with BetterTouchTool</h1>
+        <p class="article-subtitle">Supercharging your Mac with Better Touch Tool</p>
+        <p class="article-meta">JJ Shaw · <time datetime="2020-05-18T17:02:22.546Z">May 18, 2020</time></p>
+      </header>
+      <div class="article-body e-content">
+        <section name="621e" class="section section--body section--first"><div class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"></div><div class="section-inner sectionLayout--outsetColumn"><figure name="eaa4" id="eaa4" class="graf graf--figure graf--layoutOutsetCenter graf-after--h4 graf--trailing"><img class="graf-image" data-image-id="0*Dzz4e-uIEWl4j_E8" data-width="5184" data-height="3456" data-is-featured="true" src="/writing/assets/47e8ec43631-01.jpg" loading="lazy" decoding="async" alt=""><figcaption class="imageCaption">Photo by <a href="https://unsplash.com/@uxdspecies?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@uxdspecies?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Rohit Rao</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure></div></div></section><section name="3e39" class="section section--body"><div class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="3874" id="3874" class="graf graf--p graf--leading"><strong class="markup--strong markup--p-strong">Use Finder frequently?</strong></p><p name="ab63" id="ab63" class="graf graf--p graf-after--p"><em class="markup--em markup--p-em">Tap with 4 fingers (anywhere) to bring it up instantly.</em></p><p name="e8dd" id="e8dd" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Want to close the current tab?</strong></p><p name="e122" id="e122" class="graf graf--p graf-after--p"><em class="markup--em markup--p-em">Swipe down with 3 fingers.</em></p><p name="e275" id="e275" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Want to open a frequently used app?</strong></p><p name="3b3b" id="3b3b" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">Double click the bottom right command key</em></p></div></div></section><section name="93e4" class="section section--body section--last"><div class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="e3d9" id="e3d9" class="graf graf--p graf--leading">As of late I’ve been thinking about how I could speed up my workflow — both in terms of working faster and working more efficiently. We spend so much time on our Macs, yet we spend little energy thinking about how we can cut down on friction during use.</p><p name="5c9d" id="5c9d" class="graf graf--p graf-after--p">I’ll skip over the simple stuff like using Evernote, reaching Inbox Zero and using a proper task management app. Those are well known and pretty well documented.</p><h2 name="7385" id="7385" class="graf graf--h4 graf-after--p">I’m talking about <strong class="markup--strong markup--h4-strong">creating custom keyboard commands and gestures.</strong></h2><p name="b885" id="b885" class="graf graf--p graf-after--h4">And before you stop reading and start rolling your eyes, let me promise you that this is not<strong class="markup--strong markup--p-strong"> </strong>a waste of time.</p><p name="72c8" id="72c8" class="graf graf--p graf-after--p">Note that I have no financial interest in pushing you to use this app. It’s just something that I’ve been playing with for a long time. I don’t know the developer personally, but from his blog it looks like he works on it solo and full time!</p><h2 name="dc10" id="dc10" class="graf graf--h4 graf-after--p">Better Touch Tool allows you to map custom key commands and gestures to an action of your choice.</h2><figure name="8267" id="8267" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*WGYtUgTSFDFDFppZ9tGgHA.png" data-width="885" data-height="520" src="/writing/assets/47e8ec43631-02.png" loading="lazy" decoding="async" alt=""></figure><p name="9a68" id="9a68" class="graf graf--p graf-after--figure">Using the app is dead simple.</p><figure name="6d50" id="6d50" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*xZzuQobrfCr9T2Eti_-zJg.png" data-width="793" data-height="190" src="/writing/assets/47e8ec43631-03.png" loading="lazy" decoding="async" alt=""></figure><h2 name="c49d" id="c49d" class="graf graf--h4 graf-after--figure">1. Specify the Trackpad Gesture / Keyboard Command</h2><p name="60b8" id="60b8" class="graf graf--p graf-after--h4">There’s a whole list of available options in the app.</p><p name="a247" id="a247" class="graf graf--p graf-after--p">For example, you can specify a Four Finger Tap to open a specific app.</p><h2 name="dd28" id="dd28" class="graf graf--h4 graf-after--p">2. Enter the desired outcome</h2><p name="ad00" id="ad00" class="graf graf--p graf-after--h4">For example, <em class="markup--em markup--p-em">CMD + T</em> opens a new tab in most apps.</p><h2 name="85dd" id="85dd" class="graf graf--h4 graf-after--p"><strong class="markup--strong markup--h4-strong">3. Specify if the shortcut is Global or App-Specific</strong></h2><p name="54b2" id="54b2" class="graf graf--p graf-after--h4">For example, you want your gestures to work only in Safari, not in Finder.</p><h2 name="ce4f" id="ce4f" class="graf graf--h4 graf-after--p graf--trailing">That’s it! <a href="https://folivora.ai" data-href="https://folivora.ai" class="markup--anchor markup--h4-anchor" rel="noopener" target="_blank">You can find the app here.</a></h2></div></div></section>
+      </div>
+      <footer class="article-footer">
+        <a href="/writing/">← All writing</a>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>

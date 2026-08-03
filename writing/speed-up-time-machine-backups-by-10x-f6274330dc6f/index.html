@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Speed up Time Machine backups by 10x on macOS — JJ Shaw</title>
+  <meta name="description" content="Create on-demand Time Machine backups to cut down the wait">
+  <link rel="canonical" href="https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Speed up Time Machine backups by 10x on macOS — JJ Shaw">
+  <meta property="og:description" content="Create on-demand Time Machine backups to cut down the wait">
+  <meta property="og:url" content="https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/atom+xml" title="JJ Shaw — Writing" href="https://shawjj.com/feed.xml">
+  <link rel="stylesheet" href="/writing.css">
+<meta property="article:published_time" content="2018-07-19T09:49:20.098Z">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Speed up Time Machine backups by 10x on macOS", "description": "Create on-demand Time Machine backups to cut down the wait", "datePublished": "2018-07-19T09:49:20.098Z", "dateModified": "2018-07-19T09:49:20.098Z", "author": {"@type": "Person", "name": "JJ Shaw", "url": "https://shawjj.com"}, "mainEntityOfPage": "https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/"}</script>
+</head>
+<body>
+  <header class="writing-header">
+    <a class="writing-wordmark" href="/">JJ Shaw</a>
+    <nav aria-label="Primary navigation">
+      <a href="/writing/">Writing</a>
+      <a href="mailto:hello@shawjj.com">Email</a>
+      <a href="https://www.linkedin.com/in/shawjj" rel="noopener noreferrer">LinkedIn</a>
+    </nav>
+  </header>
+  <main class="article-shell">
+    <article>
+      <header class="article-header">
+        <p class="eyebrow"><a href="/writing/">Writing</a></p>
+        <h1>Speed up Time Machine backups by 10x on macOS</h1>
+        <p class="article-subtitle">Create on-demand Time Machine backups to cut down the wait</p>
+        <p class="article-meta">JJ Shaw · <time datetime="2018-07-19T09:49:20.098Z">July 19, 2018</time></p>
+      </header>
+      <div class="article-body e-content">
+        <section name="d7ce" class="section section--body section--first section--last"><div class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><figure name="a395" id="a395" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="0*_ZtYmsYmoVCOiDrK" data-width="6000" data-height="4000" src="/writing/assets/f6274330dc6f-01.jpg" loading="lazy" decoding="async" alt=""><figcaption class="imageCaption"><a href="https://unsplash.com/@aronunsplash?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@aronunsplash?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Aron</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure><p name="6749" id="6749" class="graf graf--p graf-after--figure">As I was in the process of migrating from my Macbook Air to the new 2018 Macbook, I had to create a Time Machine backup in order to move all my apps and content over.</p><h2 name="c0cd" id="c0cd" class="graf graf--h4 graf-after--p">1. Typical Time Machine backups take over a day to transfer ~300GB of data.</h2><h2 name="1b85" id="1b85" class="graf graf--h4 graf-after--h4">2. Entering the following in Terminal speeds it up to ~1hr:</h2><pre name="5e3a" id="5e3a" class="graf graf--pre graf-after--h4">sudo sysctl debug.lowpri_throttle_enabled=0</pre><h2 name="d644" id="d644" class="graf graf--h4 graf-after--pre">3. You’ll notice that Time Machine backup speeds will now fly. Power consumption will also increase.</h2><figure name="f5f9" id="f5f9" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*GNbHDbf2YGRm8oi_rwJgEA.png" data-width="512" data-height="417" src="/writing/assets/f6274330dc6f-02.png" loading="lazy" decoding="async" alt=""></figure><h2 name="b943" id="b943" class="graf graf--h4 graf-after--figure">4. After you’re finished with your “on-demand” Time Machine backup, enter the following in Terminal again:</h2><pre name="7d3a" id="7d3a" class="graf graf--pre graf-after--h4">sudo sysctl debug.lowpri_throttle_enabled=1</pre><p name="a363" id="a363" class="graf graf--p graf-after--pre">This will end the prioritization of the process, and ensure that your Mac doesn’t consume extra power while on battery.</p><h2 name="feec" id="feec" class="graf graf--h4 graf-after--p">Notes:</h2><ol class="postList"><li name="cf81" id="cf81" class="graf graf--li graf-after--h4">The command works because it removes the throttle on low priority system tasks like Time Machine backups</li><li name="c49d" id="c49d" class="graf graf--li graf-after--li">Applications running in the background will slow your Time Machine backup</li><li name="9b60" id="9b60" class="graf graf--li graf-after--li">You might hear your Mac’s fan engage over the course of the backup</li><li name="02c6" id="02c6" class="graf graf--li graf-after--li graf--trailing">You’ll be required to enter your account password</li></ol></div></div></section>
+      </div>
+      <footer class="article-footer">
+        <a href="/writing/">← All writing</a>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>

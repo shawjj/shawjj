@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JJ Shaw — Writing</title>
+  <link href="https://shawjj.com/feed.xml" rel="self"/>
+  <link href="https://shawjj.com/writing/"/>
+  <id>https://shawjj.com/writing/</id>
+  <updated>2020-05-18T17:02:22.546Z</updated>
+  <entry>
+    <title>Creating useful gestures on macOS with BetterTouchTool</title>
+    <link href="https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/"/>
+    <id>https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/</id>
+    <updated>2020-05-18T17:02:22.546Z</updated>
+    <summary>Supercharging your Mac with Better Touch Tool</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Unsubscribe from Venmo payment emails</title>
+    <link href="https://shawjj.com/writing/unsubscribe-from-venmo-payment-emails-22f8b22a5f58/"/>
+    <id>https://shawjj.com/writing/unsubscribe-from-venmo-payment-emails-22f8b22a5f58/</id>
+    <updated>2019-07-01T16:00:25.127Z</updated>
+    <summary>Automatically stop receiving Venmo payment emails by setting up Gmail inbox filters.</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>How to force aptX on Sony WH-1000XM2</title>
+    <link href="https://shawjj.com/writing/how-to-force-aptx-on-sony-wh-1000xm2-7e3bef27c0e3/"/>
+    <id>https://shawjj.com/writing/how-to-force-aptx-on-sony-wh-1000xm2-7e3bef27c0e3/</id>
+    <updated>2019-05-05T23:56:46.291Z</updated>
+    <summary>It’s been quite some time since my last post, but this issue has been annoying and persistent enough to warrant a post on its own.</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Where are my organic views on Medium coming from?</title>
+    <link href="https://shawjj.com/writing/where-are-my-organic-views-on-medium-coming-from-58ff562ab69/"/>
+    <id>https://shawjj.com/writing/where-are-my-organic-views-on-medium-coming-from-58ff562ab69/</id>
+    <updated>2018-07-21T10:08:53.959Z</updated>
+    <summary>Tracing the source of my organic views on Medium</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Block ads everywhere with AdGuard for iOS</title>
+    <link href="https://shawjj.com/writing/block-ads-everywhere-with-adguard-for-ios-23ea17a2363a/"/>
+    <id>https://shawjj.com/writing/block-ads-everywhere-with-adguard-for-ios-23ea17a2363a/</id>
+    <updated>2018-07-21T06:18:33.428Z</updated>
+    <summary>Perhaps the best ad blocker for iPhone and iOS</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Speed up Time Machine backups by 10x on macOS</title>
+    <link href="https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/"/>
+    <id>https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/</id>
+    <updated>2018-07-19T09:49:20.098Z</updated>
+    <summary>Create on-demand Time Machine backups to cut down the wait</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Adding a Medium Publication sitemap to Search Console</title>
+    <link href="https://shawjj.com/writing/adding-a-medium-publication-sitemap-to-search-console-b63708e93cfb/"/>
+    <id>https://shawjj.com/writing/adding-a-medium-publication-sitemap-to-search-console-b63708e93cfb/</id>
+    <updated>2018-07-17T07:33:22.672Z</updated>
+    <summary>Finding your custom domain Medium Publication’s sitemap.xml</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+  <entry>
+    <title>Mac randomly shuts down — finding the cause via Terminal.</title>
+    <link href="https://shawjj.com/writing/mac-randomly-shuts-down-finding-the-cause-e57acacb37/"/>
+    <id>https://shawjj.com/writing/mac-randomly-shuts-down-finding-the-cause-e57acacb37/</id>
+    <updated>2018-07-16T10:18:03.665Z</updated>
+    <summary>Finding shutdown causes in macOS High Sierra</summary>
+    <author><name>JJ Shaw</name></author>
+  </entry>
+</feed>
