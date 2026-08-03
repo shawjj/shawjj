@@ -274,11 +274,6 @@ def render_index(posts: list[dict[str, str]]) -> str:
         </li>"""
         )
     main = f"""<main class="writing-index">
-    <header class="writing-intro">
-      <p class="eyebrow">Archive</p>
-      <h1>Writing</h1>
-      <p>Notes on technology, productivity, and making computers work better.</p>
-    </header>
     <ol class="writing-list">
       {''.join(rows)}
     </ol>
