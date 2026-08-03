@@ -2,8 +2,48 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://shawjj.com/writing/:path*",
+      "source": "/",
+      "destination": "https://shawjj.com/writing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631",
+      "destination": "https://shawjj.com/writing/making-useful-gestures-and-swipes-on-macos-with-bettertouchtool-47e8ec43631/",
+      "statusCode": 301
+    },
+    {
+      "source": "/unsubscribe-from-venmo-payment-emails-22f8b22a5f58",
+      "destination": "https://shawjj.com/writing/unsubscribe-from-venmo-payment-emails-22f8b22a5f58/",
+      "statusCode": 301
+    },
+    {
+      "source": "/how-to-force-aptx-on-sony-wh-1000xm2-7e3bef27c0e3",
+      "destination": "https://shawjj.com/writing/how-to-force-aptx-on-sony-wh-1000xm2-7e3bef27c0e3/",
+      "statusCode": 301
+    },
+    {
+      "source": "/where-are-my-organic-views-on-medium-coming-from-58ff562ab69",
+      "destination": "https://shawjj.com/writing/where-are-my-organic-views-on-medium-coming-from-58ff562ab69/",
+      "statusCode": 301
+    },
+    {
+      "source": "/block-ads-everywhere-with-adguard-for-ios-23ea17a2363a",
+      "destination": "https://shawjj.com/writing/block-ads-everywhere-with-adguard-for-ios-23ea17a2363a/",
+      "statusCode": 301
+    },
+    {
+      "source": "/speed-up-time-machine-backups-by-10x-f6274330dc6f",
+      "destination": "https://shawjj.com/writing/speed-up-time-machine-backups-by-10x-f6274330dc6f/",
+      "statusCode": 301
+    },
+    {
+      "source": "/adding-a-medium-publication-sitemap-to-search-console-b63708e93cfb",
+      "destination": "https://shawjj.com/writing/adding-a-medium-publication-sitemap-to-search-console-b63708e93cfb/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mac-randomly-shuts-down-finding-the-cause-e57acacb37",
+      "destination": "https://shawjj.com/writing/mac-randomly-shuts-down-finding-the-cause-e57acacb37/",
       "statusCode": 301
     }
   ]
