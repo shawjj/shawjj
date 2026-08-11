@@ -271,6 +271,26 @@ footer {
     }
 }
 
+@media (max-width: 42rem) {
+    .site-header {
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .wordmark {
+        flex: 0 0 auto;
+        font-size: 1.35rem;
+        line-height: 1;
+    }
+
+    .site-header nav {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.6rem;
+        font-size: 0.82rem;
+    }
+}
+
 @media (max-width: 34rem) {
     .site-shell {
         padding-top: 1.3rem;
