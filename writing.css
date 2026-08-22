@@ -136,11 +136,19 @@ a:focus-visible {
 }
 
 .writing-list p,
-.writing-list time {
+.writing-list time,
+.writing-list-meta span {
     margin-top: 0.4rem;
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.4;
+}
+
+.writing-list-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    white-space: nowrap;
 }
 
 .article-shell {
